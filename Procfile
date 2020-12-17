@@ -1,2 +1,2 @@
 worker: npm run start
-web: bundle exec thin start -p $PORT
+web: npm run start -p $PORT
